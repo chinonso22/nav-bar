@@ -13,8 +13,9 @@
     width: 90%;
 }
 .hourly{
+    margin-top: 20px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 .hospital_hour{
     color: #eee;
