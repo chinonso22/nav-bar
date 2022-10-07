@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.three-div{
+    display: flex;
+    height: 40vh;
+    background: black;
+    color: white;
+}
+.three-div div{
+    width: 90%;
+}
+.hourly{
+    display: flex;
+    gap: 40px;
+}
+.hospital_hour{
+    color: #eee;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: -.1px;
+    font-weight: 500;
+}

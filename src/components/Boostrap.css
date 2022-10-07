@@ -1,0 +1,31 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+.content-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+ 
+}
+.me-auto{
+    gap: 50px;
+}
+.img-ctn img{
+    width: 60px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .me-auto{
+        gap: 30px;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 0px !important;
+    }
+}
